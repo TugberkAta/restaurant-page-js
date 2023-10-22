@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./Inter-VariableFont_slnt\,wght.ttf);
+  }
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: Montserrat;
+}
+
+body{
+    margin: 0px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
