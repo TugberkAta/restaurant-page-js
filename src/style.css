@@ -10,19 +10,61 @@
 
 
 :root{
-    --red-border: px solid red;
+    --red-border: 1x solid red;
 }
 
 body{
     position: relative;
     margin: 0px;
-    height: 400vh;
+    height: fit-content;
+    background-color: #121212;
 }
 
 .content{
     position: relative;
     width: 100vw;
     height: fit-content;
+}
+
+.header{
+    border-bottom: 1px gray solid;
+    background-color: #1212125e;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 2vh;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 2vh;
+}
+
+.header-left>p{
+    font-family: Montserrat;
+    color: white;
+}
+
+.header-right>p{
+    font-family: Montserrat;
+    color: white;
+}
+
+.header-main-name-text{
+    margin-left: 2vw;
+}
+
+.header-contact-text{
+    margin-right: 2vw;
 }
 
 .fancy-part{
@@ -36,13 +78,14 @@ body{
     background-color:#121212;
     gap: 2vw;
     width: fit-content;
+    height: fit-content;
     margin-left: 10vw;
 }
 
 .first-container{
     position: relative;
     border: var(--red-border);
-    height: 206vh;
+    max-height: 100%;
     width: 30vw;
 }
 
@@ -58,15 +101,16 @@ body{
     flex-direction: column;
     align-items: center;
     border: var(--red-border);
+    max-height: 100%;
     width: 48vw;
 }
 
 .fancy-picture-shadow{
-    top: 0px;
+    top: 0;
     position: sticky;
     border: var(--red-border);
     width: 40vw;
-    height: 60px;
+    height: 5vh;
     background: rgb(18,18,18);
     background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(18,18,18,0.5032387955182073) 58%, rgba(18,18,18,0) 100%);
 }

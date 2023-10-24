@@ -1,11 +1,6 @@
+import { domContent } from "./domContent"
 
-export const domContent = (function(){
-    const body = document.querySelector("body")
-    const content = document.querySelector(".content")
-
-
-    return {body,content}
-})()
+function fancyScroll(){
 
 const fancyField = (function(){
     const firstContainer = document.createElement("div")
@@ -72,6 +67,7 @@ const fancyPictureElements = (function(){
     fancyField.secondContainer.appendChild(thirdPicture)
     fancyField.secondContainer.appendChild(fourthPicture)
 })()
+}
 
-
+fancyScroll()
 
