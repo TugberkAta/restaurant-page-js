@@ -8,25 +8,107 @@
     src: url(./Montserrat-VariableFont_wght.ttf);
 }
 
-*{
-    font-family: Montserrat;
+
+:root{
+    --red-border: px solid red;
 }
 
 body{
+    position: relative;
     margin: 0px;
+    height: 400vh;
 }
 
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+.content{
+    position: relative;
     width: 100vw;
+    height: fit-content;
 }
 
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: black;
+.fancy-part{
+    width: 100vw;
+    height: 220vh;
+    background-color: #121212;
+}
 
+.fancy-container{
+    display: flex;
+    background-color:#121212;
+    gap: 2vw;
+    width: fit-content;
+    margin-left: 10vw;
+}
+
+.first-container{
+    position: relative;
+    border: var(--red-border);
+    height: 206vh;
+    width: 30vw;
+}
+
+.text-panel{
+    top: 10vh;
+    position: sticky;
+}
+
+.second-container{
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: var(--red-border);
+    width: 48vw;
+}
+
+.fancy-picture-shadow{
+    top: 0px;
+    position: sticky;
+    border: var(--red-border);
+    width: 40vw;
+    height: 60px;
+    background: rgb(18,18,18);
+    background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(18,18,18,0.5032387955182073) 58%, rgba(18,18,18,0) 100%);
+}
+
+.second-container>img{
+    width: 40vw;
+    border-radius: 4px;
+    margin-top: 3vh ;
+}
+
+.third-text-container, .second-text-container, .first-text-container{
+    margin: 0px;
+    margin-left: 2vw;
+}
+
+.first-text-container{
+    font-family: Montserrat;
+    color: white;
+    font-size: 20px;
+    font-weight: 10;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 1vh;
+    margin-top: 10vh;
+}
+
+.second-text-container{
+    font-family: Inter;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 4vh;
+
+}
+
+.third-text-container{
+    font-family: Montserrat;
+    font-style: italic;
+    color: white;
+    font-size: 16px;
+    font-weight: thin;
+    height: fit-content;
 }
