@@ -1,4 +1,4 @@
-import { domContent } from "./domContent"
+import { domContent } from "../domContent"
 
 function fancyScroll(){
 
@@ -13,7 +13,7 @@ const fancyField = (function(){
     firstContainer.classList.add("first-container")
     secondContainer.classList.add("second-container")
 
-    domContent.content.appendChild(fancyPart)
+    domContent.mainPage.appendChild(fancyPart)
     fancyPart.appendChild(fancyContainer)
     fancyContainer.appendChild(firstContainer)
     fancyContainer.appendChild(secondContainer)
@@ -56,10 +56,10 @@ const fancyPictureElements = (function(){
     const thirdPicture = document.createElement("img")
     const fourthPicture = document.createElement("img")
 
-    firstPicture.src = "./Calamari.jpg"
-    secondPicture.src = "./fishfilet.jpg"
-    thirdPicture.src = "./prawn.jpg"
-    fourthPicture.src = "./wine.jpg"
+    firstPicture.src = "../foods/Calamari.jpg"
+    secondPicture.src = "../foods/fishfilet.jpg"
+    thirdPicture.src = "../foods/prawn.jpg"
+    fourthPicture.src = "../foods/wine.jpg"
 
 
     fancyField.secondContainer.appendChild(firstPicture)
@@ -69,5 +69,4 @@ const fancyPictureElements = (function(){
 })()
 }
 
-fancyScroll()
-
+export { fancyScroll };

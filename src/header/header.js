@@ -1,4 +1,4 @@
-import { domContent } from "./domContent";
+import { domContent } from "../domContent";
 
 const headerInterior = (function(){
     const headerLeft = document.createElement("div")

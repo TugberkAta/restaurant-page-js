@@ -1,14 +1,16 @@
 @font-face {
     font-family: "Inter";
-    src: url(./Inter-VariableFont_slnt\,wght.ttf);
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
   }
 
 @font-face {
     font-family: "Montserrat";
-    src: url(./Montserrat-VariableFont_wght.ttf);
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
 
-
+*{
+    border: var(--red-border);
+}
 :root{
     --red-border: 1x solid red;
 }
@@ -16,7 +18,7 @@
 body{
     position: relative;
     margin: 0px;
-    height: fit-content;
+    height: fit-content ;
     background-color: #121212;
 }
 
@@ -52,16 +54,23 @@ body{
 .header-left>p{
     font-family: Montserrat;
     color: white;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
 }
 
 .header-right>p{
     font-family: Montserrat;
     color: white;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
 }
 
 .header-main-name-text{
     margin-left: 2vw;
 }
+
 
 .header-contact-text{
     margin-right: 2vw;
@@ -155,4 +164,90 @@ body{
     font-size: 16px;
     font-weight: thin;
     height: fit-content;
+}
+
+.menu-page{
+    display: flex;
+    gap: 2vw;
+}
+
+.menu-page-left{
+    width: fit-content;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 20vw;
+    height: fit-content;
+    margin-left: 2vw;
+    margin-top: 3vh;
+
+}
+
+.sidebar-text{
+    font-family: Montserrat;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-page-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1vh;
+    row-gap: 6vh;
+    margin-top: 3vh;
+}
+
+.item-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background-repeat:no-repeat ;
+    background-size: auto;
+    height: 20vh;
+    width: 18vw;
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid white;
+}
+
+.item-pic{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    height: 20vh;
+    width: 18vw;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.item-text{
+    position: relative;
+    font-family: Montserrat;
+    margin: 0px;
+}
+
+.item-name-field{
+    display: flex;
+    justify-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 3vh;
+    position: absolute;
+    bottom: -3vh;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 0 0 5px 5px;
+}
+
+
+.item-price{
+    position: absolute;
+    right: 0;
+    font-weight: 200;
 }
