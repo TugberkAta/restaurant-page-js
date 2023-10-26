@@ -1,12 +1,14 @@
 import { domContent } from "../domContent";
 
+let i = 0
+
 const headerInterior = (function(){
     const headerLeft = document.createElement("div")
     const headerRight = document.createElement("div")
     const nameText = document.createElement("p")
     const menuText = document.createElement("p")
     const contactText = document.createElement("p")
-    
+
     headerLeft.classList.add("header-left")
     headerRight.classList.add("header-right")
     nameText.classList.add("header-main-name-text")
