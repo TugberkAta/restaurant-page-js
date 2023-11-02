@@ -1,103 +1,119 @@
-import { domContent } from "../domContent"
-import { sidebar, sidebarObject } from "./sidebar"
+import domContent from '../domContent';
+import sidebar from './sidebar';
 
+function menu() {
+  function menuItemDom(item) {
+    const container = document.createElement('div');
+    const itemName = document.createElement('p');
+    const itemNameField = document.createElement('div');
+    const itemPrice = document.createElement('p');
+    const itemPic = document.createElement('img');
 
-function menu(){
+    itemName.classList.add('item-name', 'item-text');
+    itemPrice.classList.add('item-price', 'item-text');
+    container.classList.add('item-container');
+    itemPic.classList.add('item-pic');
+    itemNameField.classList.add('item-name-field');
 
+    itemName.textContent = item.name;
+    itemPrice.textContent = `${item.price}$`;
+    itemPic.src = item.imgSource;
 
-    function menuItemDom(item){
-        const container = document.createElement("div")
-        const itemName = document.createElement("p")
-        const itemNameField = document.createElement("div")
-        const itemPrice = document.createElement("p")
-        const itemPic = document.createElement("img")
+    domContent.MenuRightSide.appendChild(container);
+    itemNameField.appendChild(itemName);
+    container.appendChild(itemNameField);
+    itemNameField.appendChild(itemPrice);
+    container.appendChild(itemPic);
+  }
 
-        itemName.classList.add("item-name", "item-text")
-        itemPrice.classList.add("item-price", "item-text")
-        container.classList.add("item-container")
-        itemPic.classList.add("item-pic")
-        itemNameField.classList.add("item-name-field")
+  const menuItems = [
+    {
+      name: 'Calamari', price: 29.99, imgSource: '../foods/Calamari.jpg', type: 'appetizer',
+    },
+    {
+      name: 'Fish Fillet', price: 39.99, imgSource: '../foods/fishfilet.jpg', type: 'main-course',
+    },
+    {
+      name: 'Prawn', price: 19.99, imgSource: '../foods/prawn.jpg', type: 'appetizer',
+    },
+    {
+      name: 'Salmon', price: 39.99, imgSource: '../foods/salmon.jpg', type: 'main-course',
+    },
+    {
+      name: 'Crab', price: 39.99, imgSource: '../foods/crab.jpg', type: 'side-dish',
+    },
+    {
+      name: 'Oyster', price: 19.99, imgSource: '../foods/oyster.jpg', type: 'appetizer',
+    },
+    {
+      name: 'Chocolate Soufle', price: 12.99, imgSource: '../foods/soufle.jpg', type: 'dessert',
+    },
+    {
+      name: 'Creme Brulee', price: 18.99, imgSource: '../foods/creme.jpg', type: 'dessert',
+    },
+    {
+      name: 'Lobster', price: 59.99, imgSource: '../foods/lobster.jpg', type: 'main-course',
+    },
+    {
+      name: 'Greek Salad', price: 19.99, imgSource: '../foods/greek.jpg', type: 'side-dish',
+    },
+    {
+      name: 'Baklava', price: 12.99, imgSource: '../foods/baklava.jpg', type: 'dessert',
+    },
+    {
+      name: 'Israeli Salad', price: 19.99, imgSource: '../foods/israel.jpg', type: 'side-dish',
+    },
+  ];
 
-        itemName.textContent = item.name
-        itemPrice.textContent = item.price + "$"
-        itemPic.src = item.imgSource
+  const sidebarObject = sidebar();
 
-        domContent.MenuRightSide.appendChild(container)
-        itemNameField.appendChild(itemName)
-        container.appendChild(itemNameField)
-        itemNameField.appendChild(itemPrice)
-        container.appendChild(itemPic)
-    }
+  function createMenuItems(Items) {
+    Items.forEach((item) => {
+      menuItemDom(item);
+    });
+  }
 
-    const menuItems = [
-        {name: "Calamari", price: 29.99, imgSource: "../foods/Calamari.jpg", type: "appetizer"},
-        {name: "Fish Fillet", price: 39.99, imgSource: "../foods/fishfilet.jpg", type: "main-course"},
-        {name: "Prawn", price: 19.99, imgSource: "../foods/prawn.jpg", type: "appetizer"},
-        {name: "Salmon", price: 39.99, imgSource: "../foods/salmon.jpg", type: "main-course"},
-        {name: "Crab", price: 39.99, imgSource: "../foods/crab.jpg", type: "side-dish"},
-        {name: "Oyster", price: 19.99, imgSource: "../foods/oyster.jpg", type: "appetizer"},
-        {name: "Chocolate Soufle", price: 12.99, imgSource: "../foods/soufle.jpg", type: "dessert"},
-        {name: "Creme Brulee", price: 18.99, imgSource: "../foods/creme.jpg", type: "dessert"},
-        {name: "Lobster", price: 59.99, imgSource: "../foods/lobster.jpg", type: "main-course"},
-        {name: "Greek Salad", price: 19.99, imgSource: "../foods/greek.jpg", type: "side-dish"},
-        {name: "Baklava", price: 12.99, imgSource: "../foods/baklava.jpg", type: "dessert"},
-        {name: "Israeli Salad", price: 19.99, imgSource: "../foods/israel.jpg", type: "side-dish"},
-    ];
+  sidebarObject.all.addEventListener('click', () => {
+    domContent.MenuRightSide.innerHTML = '';
+    createMenuItems(menuItems);
+  });
 
-    const sidebarObject = sidebar();
+  sidebarObject.appetizerText.addEventListener('click', () => {
+    domContent.MenuRightSide.innerHTML = '';
+    menuItems.forEach((e) => {
+      if (e.type === 'appetizer') {
+        menuItemDom(e);
+      } else;
+    });
+  });
 
-    function createMenuItems(menuItems){
-        menuItems.forEach(item => {
-            menuItemDom(item);
-        });
-    }   
+  sidebarObject.sideDishText.addEventListener('click', () => {
+    domContent.MenuRightSide.innerHTML = '';
+    menuItems.forEach((e) => {
+      if (e.type === 'side-dish') {
+        menuItemDom(e);
+      } else;
+    });
+  });
 
-    sidebarObject.all.addEventListener("click",()=>{
-        domContent.MenuRightSide.innerHTML = ""
-        createMenuItems(menuItems)
-    })
+  sidebarObject.mainCourseText.addEventListener('click', () => {
+    domContent.MenuRightSide.innerHTML = '';
+    menuItems.forEach((e) => {
+      if (e.type === 'main-course') {
+        menuItemDom(e);
+      } else;
+    });
+  });
 
-    sidebarObject.appetizerText.addEventListener("click",() =>{
-        domContent.MenuRightSide.innerHTML = ""
-        menuItems.forEach(e => {
-            if (e.type === "appetizer"){
-                menuItemDom(e)
-            }
-            else return
-        });
-    })
+  sidebarObject.dessertText.addEventListener('click', () => {
+    domContent.MenuRightSide.innerHTML = '';
+    menuItems.forEach((e) => {
+      if (e.type === 'dessert') {
+        menuItemDom(e);
+      } else;
+    });
+  });
 
-    sidebarObject.sideDishText.addEventListener("click",() =>{
-        domContent.MenuRightSide.innerHTML = ""
-        menuItems.forEach(e => {
-            if (e.type === "side-dish"){
-                menuItemDom(e)
-            }
-            else return
-        });
-    })
-
-    sidebarObject.mainCourseText.addEventListener("click",() =>{
-        domContent.MenuRightSide.innerHTML = ""
-        menuItems.forEach(e => {
-            if (e.type === "main-course"){
-                menuItemDom(e)
-            }
-            else return
-        });
-    })
-
-    sidebarObject.dessertText.addEventListener("click",() =>{
-        domContent.MenuRightSide.innerHTML = ""
-        menuItems.forEach(e => {
-            if (e.type === "dessert"){
-                menuItemDom(e)
-            }
-            else return
-        });
-    })
-
-
-    createMenuItems(menuItems)
+  createMenuItems(menuItems);
 }
-export {menu}
+export default menu;
