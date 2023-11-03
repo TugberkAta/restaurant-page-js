@@ -1,5 +1,6 @@
 import "./style.css";
 import domContent from "./domContent";
+// eslint-disable-next-line no-unused-vars, import/extensions
 import headerInterior from "./header/header.js";
 import fancyScroll from "./fancyScrollSection/fancyscroll";
 import menu from "./menu/menu";
