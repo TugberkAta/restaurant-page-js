@@ -1,4 +1,5 @@
-"use strict";
+
+
 /*
  * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
  * This devtool is neither made for production nor for readable output files.
@@ -7,12 +8,12 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunkrestaurant_page"] = self["webpackChunkrestaurant_page"] || []).push([["main"],{
+(self.webpackChunkrestaurant_page = self.webpackChunkrestaurant_page || []).push([["main"],{
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
-/*!*************************************************************!*\
+/*! *************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
-  \*************************************************************/
+  \************************************************************ */
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./fonts/Inter-VariableFont_slnt,wght.ttf */ \"./src/fonts/Inter-VariableFont_slnt,wght.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./fonts/Montserrat-VariableFont_wght.ttf */ \"./src/fonts/Montserrat-VariableFont_wght.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@font-face {\n    font-family: \"Inter\";\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n  }\n\n@font-face {\n    font-family: \"Montserrat\";\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_1___});\n}\n\n*{\n    border: var(--red-border);\n}\n:root{\n    --red-border: 1x solid red;\n}\n\nbody{\n    position: relative;\n    margin: 0px;\n    height: fit-content ;\n    background-color: #121212;\n}\n\n.content{\n    position: relative;\n    width: 100vw;\n    height: fit-content;\n}\n\n.header{\n    border-bottom: 1px gray solid;\n    background-color: #1212125e;\n    height: 8vh;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n}\n\n.header-left{\n    display: flex;\n    align-items: center;\n    width: fit-content;\n    gap: 2vh;\n}\n\n.header-right{\n    position: relative;\n    display: flex;\n    align-items: center;\n    width: fit-content;\n    gap: 2vh;\n}\n\n.header-left>p{\n    font-family: Montserrat;\n    color: white;\n    -webkit-user-select: none;\n    user-select: none;\n    cursor: pointer;\n}\n\n.header-right>p{\n    font-family: Montserrat;\n    color: white;\n    -webkit-user-select: none;\n    user-select: none;\n    cursor: pointer;\n}\n\n.header-main-name-text{\n    margin-left: 2vw;\n}\n\n\n.header-contact-text{\n    margin-right: 2vw;\n}\n\n.fancy-part{\n    width: 100vw;\n    height: 220vh;\n    background-color: #121212;\n}\n\n.fancy-container{\n    display: flex;\n    background-color:#121212;\n    gap: 2vw;\n    width: fit-content;\n    height: fit-content;\n    margin-left: 10vw;\n}\n\n.first-container{\n    position: relative;\n    border: var(--red-border);\n    max-height: 100%;\n    width: 30vw;\n}\n\n.text-panel{\n    top: 10vh;\n    position: sticky;\n}\n\n.second-container{\n    position: relative;\n    z-index: 0;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    border: var(--red-border);\n    max-height: 100%;\n    width: 48vw;\n}\n\n.fancy-picture-shadow{\n    top: 0;\n    position: sticky;\n    border: var(--red-border);\n    width: 40vw;\n    height: 5vh;\n    background: rgb(18,18,18);\n    background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(18,18,18,0.5032387955182073) 58%, rgba(18,18,18,0) 100%);\n}\n\n.second-container>img{\n    width: 40vw;\n    border-radius: 4px;\n    margin-top: 3vh ;\n}\n\n.third-text-container, .second-text-container, .first-text-container{\n    margin: 0px;\n    margin-left: 2vw;\n}\n\n.first-text-container{\n    font-family: Montserrat;\n    color: white;\n    font-size: 20px;\n    font-weight: 10;\n    width: fit-content;\n    height: fit-content;\n    margin-bottom: 1vh;\n    margin-top: 10vh;\n}\n\n.second-text-container{\n    font-family: Inter;\n    color: white;\n    font-size: 48px;\n    font-weight: bold;\n    width: fit-content;\n    height: fit-content;\n    margin-bottom: 4vh;\n\n}\n\n.third-text-container{\n    font-family: Montserrat;\n    font-style: italic;\n    color: white;\n    font-size: 16px;\n    font-weight: thin;\n    height: fit-content;\n}\n\n.menu-page{\n    display: flex;\n    gap: 2vw;\n}\n\n.menu-page-left{\n    width: fit-content;\n}\n\n.sidebar{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: whitesmoke;\n    width: 20vw;\n    height: fit-content;\n    margin-left: 2vw;\n    margin-top: 3vh;\n\n}\n\n.sidebar-text{\n    font-family: Montserrat;\n    font-weight: bold;\n    cursor: pointer;\n}\n\n.menu-page-right{\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr 1fr;\n    gap: 1vh;\n    row-gap: 4vh;\n    margin-top: 3vh;\n}\n\n.item-container{\n    position: relative;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: white;\n    background-repeat:no-repeat ;\n    background-size: auto;\n    height: 20vh;\n    width: 18vw;\n    border-radius: 8px 8px 0px 0px;\n    border: 1px solid white;\n    transition: 200ms ease-in-out;\n}\n\n.item-pic{\n    position: absolute;\n    top: 0;\n    z-index: 0;\n    height: 20vh;\n    width: 18vw;\n    border-radius: 8px 8px 0px 0px;\n}\n\n.item-text{\n    position: relative;\n    font-family: Montserrat;\n    margin: 0px;\n}\n\n.item-name-field{\n    display: flex;\n    justify-items: flex-end;\n    justify-content: center;\n    align-items: center;\n    width: 18vw;\n    height: 3vh;\n    position: absolute;\n    bottom: -3vh;\n    background-color: white;\n    color: black;\n    border: 1px solid white;\n    border-radius: 0 0 5px 5px;\n}\n\n\n.item-price{\n    position: absolute;\n    right: 0;\n    font-weight: 200;\n}\n\n.contact-page{\n    display: flex;\n    height: 80vh;\n    align-items: center;\n    justify-content: center;\n    gap: 10vw;\n}\n\n.contact-field{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background-color: white;\n    height: 20vh;\n    width: 25vw;\n    border-radius: 8px;\n}\n\n.contact-field:first-child>p:last-child{\n    font-size: 12px;\n    font-weight: 400;\n}\n\n.contact-field>p:first-child{\n    font-weight: bolder;\n    font-size: large;\n}\n\n.contact-field>p{\n    font-family: Inter;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
@@ -20,9 +21,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ }),
 
 /***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
+/*! *****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
+  \**************************************************** */
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://restaurant-page/./node_modules/css-loader/dist/runtime/api.js?");
@@ -30,9 +31,9 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ }),
 
 /***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
+/*! ********************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
+  \******************************************************* */
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://restaurant-page/./node_modules/css-loader/dist/runtime/getUrl.js?");
@@ -40,9 +41,9 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    opt
 /***/ }),
 
 /***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
-/*!**************************************************************!*\
+/*! **************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
-  \**************************************************************/
+  \************************************************************* */
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://restaurant-page/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
@@ -50,9 +51,9 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 /***/ }),
 
 /***/ "./src/style.css":
-/*!***********************!*\
+/*! ***********************!*\
   !*** ./src/style.css ***!
-  \***********************/
+  \********************** */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/style.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?");
@@ -60,9 +61,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ }),
 
 /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!****************************************************************************!*\
+/*! ****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
+  \*************************************************************************** */
 /***/ ((module) => {
 
 eval("\n\nvar stylesInDOM = [];\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n  for (var i = 0; i < stylesInDOM.length; i++) {\n    if (stylesInDOM[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n  return result;\n}\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var indexByIdentifier = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3],\n      supports: item[4],\n      layer: item[5]\n    };\n    if (indexByIdentifier !== -1) {\n      stylesInDOM[indexByIdentifier].references++;\n      stylesInDOM[indexByIdentifier].updater(obj);\n    } else {\n      var updater = addElementStyle(obj, options);\n      options.byIndex = i;\n      stylesInDOM.splice(i, 0, {\n        identifier: identifier,\n        updater: updater,\n        references: 1\n      });\n    }\n    identifiers.push(identifier);\n  }\n  return identifiers;\n}\nfunction addElementStyle(obj, options) {\n  var api = options.domAPI(options);\n  api.update(obj);\n  var updater = function updater(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {\n        return;\n      }\n      api.update(obj = newObj);\n    } else {\n      api.remove();\n    }\n  };\n  return updater;\n}\nmodule.exports = function (list, options) {\n  options = options || {};\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDOM[index].references--;\n    }\n    var newLastIdentifiers = modulesToDom(newList, options);\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n      var _index = getIndexByIdentifier(_identifier);\n      if (stylesInDOM[_index].references === 0) {\n        stylesInDOM[_index].updater();\n        stylesInDOM.splice(_index, 1);\n      }\n    }\n    lastIdentifiers = newLastIdentifiers;\n  };\n};\n\n//# sourceURL=webpack://restaurant-page/./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js?");
@@ -70,9 +71,9 @@ eval("\n\nvar stylesInDOM = [];\nfunction getIndexByIdentifier(identifier) {\n  
 /***/ }),
 
 /***/ "./node_modules/style-loader/dist/runtime/insertBySelector.js":
-/*!********************************************************************!*\
+/*! ********************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
-  \********************************************************************/
+  \******************************************************************* */
 /***/ ((module) => {
 
 eval("\n\nvar memo = {};\n\n/* istanbul ignore next  */\nfunction getTarget(target) {\n  if (typeof memo[target] === \"undefined\") {\n    var styleTarget = document.querySelector(target);\n\n    // Special case to return head of iframe instead of iframe itself\n    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n      try {\n        // This will throw an exception if access to iframe is blocked\n        // due to cross-origin restrictions\n        styleTarget = styleTarget.contentDocument.head;\n      } catch (e) {\n        // istanbul ignore next\n        styleTarget = null;\n      }\n    }\n    memo[target] = styleTarget;\n  }\n  return memo[target];\n}\n\n/* istanbul ignore next  */\nfunction insertBySelector(insert, style) {\n  var target = getTarget(insert);\n  if (!target) {\n    throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n  }\n  target.appendChild(style);\n}\nmodule.exports = insertBySelector;\n\n//# sourceURL=webpack://restaurant-page/./node_modules/style-loader/dist/runtime/insertBySelector.js?");
@@ -80,9 +81,9 @@ eval("\n\nvar memo = {};\n\n/* istanbul ignore next  */\nfunction getTarget(targ
 /***/ }),
 
 /***/ "./node_modules/style-loader/dist/runtime/insertStyleElement.js":
-/*!**********************************************************************!*\
+/*! **********************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
-  \**********************************************************************/
+  \********************************************************************* */
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n  var element = document.createElement(\"style\");\n  options.setAttributes(element, options.attributes);\n  options.insert(element, options.options);\n  return element;\n}\nmodule.exports = insertStyleElement;\n\n//# sourceURL=webpack://restaurant-page/./node_modules/style-loader/dist/runtime/insertStyleElement.js?");
@@ -90,9 +91,9 @@ eval("\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n 
 /***/ }),
 
 /***/ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
-/*!**********************************************************************************!*\
+/*! **********************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
-  \**********************************************************************************/
+  \********************************************************************************* */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(styleElement) {\n  var nonce =  true ? __webpack_require__.nc : 0;\n  if (nonce) {\n    styleElement.setAttribute(\"nonce\", nonce);\n  }\n}\nmodule.exports = setAttributesWithoutAttributes;\n\n//# sourceURL=webpack://restaurant-page/./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js?");
@@ -100,9 +101,9 @@ eval("\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(s
 /***/ }),
 
 /***/ "./node_modules/style-loader/dist/runtime/styleDomAPI.js":
-/*!***************************************************************!*\
+/*! ***************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
-  \***************************************************************/
+  \************************************************************** */
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj) {\n  var css = \"\";\n  if (obj.supports) {\n    css += \"@supports (\".concat(obj.supports, \") {\");\n  }\n  if (obj.media) {\n    css += \"@media \".concat(obj.media, \" {\");\n  }\n  var needLayer = typeof obj.layer !== \"undefined\";\n  if (needLayer) {\n    css += \"@layer\".concat(obj.layer.length > 0 ? \" \".concat(obj.layer) : \"\", \" {\");\n  }\n  css += obj.css;\n  if (needLayer) {\n    css += \"}\";\n  }\n  if (obj.media) {\n    css += \"}\";\n  }\n  if (obj.supports) {\n    css += \"}\";\n  }\n  var sourceMap = obj.sourceMap;\n  if (sourceMap && typeof btoa !== \"undefined\") {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  }\n\n  // For old IE\n  /* istanbul ignore if  */\n  options.styleTagTransform(css, styleElement, options.options);\n}\nfunction removeStyleElement(styleElement) {\n  // istanbul ignore if\n  if (styleElement.parentNode === null) {\n    return false;\n  }\n  styleElement.parentNode.removeChild(styleElement);\n}\n\n/* istanbul ignore next  */\nfunction domAPI(options) {\n  if (typeof document === \"undefined\") {\n    return {\n      update: function update() {},\n      remove: function remove() {}\n    };\n  }\n  var styleElement = options.insertStyleElement(options);\n  return {\n    update: function update(obj) {\n      apply(styleElement, options, obj);\n    },\n    remove: function remove() {\n      removeStyleElement(styleElement);\n    }\n  };\n}\nmodule.exports = domAPI;\n\n//# sourceURL=webpack://restaurant-page/./node_modules/style-loader/dist/runtime/styleDomAPI.js?");
@@ -110,9 +111,9 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ }),
 
 /***/ "./node_modules/style-loader/dist/runtime/styleTagTransform.js":
-/*!*********************************************************************!*\
+/*! *********************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
-  \*********************************************************************/
+  \******************************************************************** */
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://restaurant-page/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
@@ -120,9 +121,9 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ }),
 
 /***/ "./src/contact/contact.js":
-/*!********************************!*\
+/*! ********************************!*\
   !*** ./src/contact/contact.js ***!
-  \********************************/
+  \******************************* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   contact: () => (/* binding */ contact)\n/* harmony export */ });\n/* harmony import */ var _domContent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../domContent */ \"./src/domContent.js\");\n\n\nfunction contact(){\n    const addressField = document.createElement(\"div\")\n    const telephoneField = document.createElement(\"div\")\n    const emailField = document.createElement(\"div\")\n    const addressFieldHeader = document.createElement(\"p\")\n    const addressFieldText = document.createElement(\"p\")\n    const emailFieldHeader = document.createElement(\"p\")\n    const emailFieldText = document.createElement(\"p\")\n    const telephoneFieldHeader = document.createElement(\"p\")\n    const telephoneFieldText = document.createElement(\"p\")\n\n\n    addressField.classList.add(\"contact-field\")\n    telephoneField.classList.add(\"contact-field\")\n    emailField.classList.add(\"contact-field\")\n\n    addressFieldHeader.innerText = \"ADDRESS\"\n    addressFieldText.innerText = \"The Dreaming's Nexus Ethereal Lane,\\n Somnium Court \\n Oneiric Realm, DRM 1RE\"\n    emailFieldHeader.innerText = \"E-MAIL\"\n    emailFieldText.innerText = \"example@gmail.com\"\n    telephoneFieldHeader.innerText = \"PHONE NUMBER\"\n    telephoneFieldText.innerText = \"+90 823539585\"\n\n    _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.contactPage.appendChild(addressField)\n    _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.contactPage.appendChild(telephoneField)\n    _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.contactPage.appendChild(emailField)\n    addressField.appendChild(addressFieldHeader)\n    addressField.appendChild(addressFieldText)\n    emailField.appendChild(emailFieldHeader)\n    emailField.appendChild(emailFieldText)\n    telephoneField.appendChild(telephoneFieldHeader)\n    telephoneField.appendChild(telephoneFieldText)\n}\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/contact/contact.js?");
@@ -130,9 +131,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ }),
 
 /***/ "./src/domContent.js":
-/*!***************************!*\
+/*! ***************************!*\
   !*** ./src/domContent.js ***!
-  \***************************/
+  \************************** */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   domContent: () => (/* binding */ domContent)\n/* harmony export */ });\nconst domContent = (function(){\n    const body = document.querySelector(\"body\")\n    const content = document.querySelector(\".content\")\n    const header = document.createElement(\"div\")\n    const mainPage = document.createElement(\"div\")\n    const menuPage = document.createElement(\"div\")\n    const MenuRightSide = document.createElement(\"div\")\n    const MenuLeftSide = document.createElement(\"div\")\n    const contactPage = document.createElement(\"div\")\n\n    header.classList.add(\"header\")\n    mainPage.classList.add(\"main-page\")\n    menuPage.classList.add(\"menu-page\")\n    MenuRightSide.classList.add(\"menu-page-right\")\n    MenuLeftSide.classList.add(\"menu-page-left\")\n    contactPage.classList.add(\"contact-page\")\n    \n    menuPage.appendChild(MenuLeftSide)\n    menuPage.appendChild(MenuRightSide)\n    content.appendChild(header)\n    content.appendChild(mainPage)\n    content.appendChild(menuPage)\n    content.appendChild(contactPage)\n\n    return {body,content,header,mainPage, menuPage,MenuRightSide,MenuLeftSide, contactPage}\n})()\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/domContent.js?");
@@ -140,9 +141,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ }),
 
 /***/ "./src/fancyScrollSection/fancyscroll.js":
-/*!***********************************************!*\
+/*! ***********************************************!*\
   !*** ./src/fancyScrollSection/fancyscroll.js ***!
-  \***********************************************/
+  \********************************************** */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   fancyScroll: () => (/* binding */ fancyScroll)\n/* harmony export */ });\n/* harmony import */ var _domContent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../domContent */ \"./src/domContent.js\");\n\n\nfunction fancyScroll(){\n\nconst fancyField = (function(){\n    const firstContainer = document.createElement(\"div\")\n    const secondContainer = document.createElement(\"div\")\n    const fancyContainer = document.createElement(\"div\")\n    const fancyPart = document.createElement(\"div\")\n\n    fancyPart.classList.add(\"fancy-part\")\n    fancyContainer.classList.add(\"fancy-container\")\n    firstContainer.classList.add(\"first-container\")\n    secondContainer.classList.add(\"second-container\")\n\n    _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.mainPage.appendChild(fancyPart)\n    fancyPart.appendChild(fancyContainer)\n    fancyContainer.appendChild(firstContainer)\n    fancyContainer.appendChild(secondContainer)\n\n    return {firstContainer, secondContainer}\n})()\n\nconst fancyInnerElements = (function(){\n    const firstTextContainer = document.createElement(\"p\") \n    const secondTextContainer = document.createElement(\"p\")\n    const thirdTextContainer = document.createElement(\"p\") \n    const textPanel = document.createElement(\"div\")\n\n    firstTextContainer.classList.add(\"first-text-container\")\n    secondTextContainer.classList.add(\"second-text-container\")\n    thirdTextContainer.classList.add(\"third-text-container\")\n    textPanel.classList.add(\"text-panel\")\n\n    firstTextContainer.innerText = \"Best Of Cyprus\"\n    secondTextContainer.innerText = \"Taste Of\\n Aphrodite\"\n    thirdTextContainer.innerText = \"Lorem ipsum dolor,\\n\\n sit amet consectetur adipisicing elit.\\n\\nQuasi mollitia hic id temporibus\\n\\n praesentium deleniti reprehenderit\\n\\n quis ex ad, fugit minima vitae suscipit\\n\\n veritatis quo veniam eligendi at sed?\"\n\n    fancyField.firstContainer.appendChild(textPanel)\n    textPanel.appendChild(firstTextContainer)\n    textPanel.appendChild(secondTextContainer)\n    textPanel.appendChild(thirdTextContainer)\n})()\n\nconst fancyPictureShadow = (function(){\n    const shadowField = document.createElement(\"div\")\n\n    shadowField.classList.add(\"fancy-picture-shadow\")\n\n    fancyField.secondContainer.appendChild(shadowField)\n})()\n\nconst fancyPictureElements = (function(){\n    const firstPicture = document.createElement(\"img\")\n    const secondPicture = document.createElement(\"img\")\n    const thirdPicture = document.createElement(\"img\")\n    const fourthPicture = document.createElement(\"img\")\n\n    firstPicture.src = \"../foods/Calamari.jpg\"\n    secondPicture.src = \"../foods/fishfilet.jpg\"\n    thirdPicture.src = \"../foods/prawn.jpg\"\n    fourthPicture.src = \"../foods/wine.jpg\"\n\n\n    fancyField.secondContainer.appendChild(firstPicture)\n    fancyField.secondContainer.appendChild(secondPicture)\n    fancyField.secondContainer.appendChild(thirdPicture)\n    fancyField.secondContainer.appendChild(fourthPicture)\n})()\n}\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/fancyScrollSection/fancyscroll.js?");
@@ -150,9 +151,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ }),
 
 /***/ "./src/header/header.js":
-/*!******************************!*\
+/*! ******************************!*\
   !*** ./src/header/header.js ***!
-  \******************************/
+  \***************************** */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _domContent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../domContent */ \"./src/domContent.js\");\n\n\nlet i = 0\n\nconst headerInterior = (function(){\n    const headerLeft = document.createElement(\"div\")\n    const headerRight = document.createElement(\"div\")\n    const nameText = document.createElement(\"p\")\n    const menuText = document.createElement(\"p\")\n    const contactText = document.createElement(\"p\")\n\n    headerLeft.classList.add(\"header-left\")\n    headerRight.classList.add(\"header-right\")\n    nameText.classList.add(\"header-main-name-text\")\n    menuText.classList.add(\"header-menu-text\")\n    contactText.classList.add(\"header-contact-text\")\n\n    nameText.innerText = \"TASTE OF APHRODITE\"\n    menuText.innerText = \"MENU\"\n    contactText.innerText = \"CONTACT\"\n\n    _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.header.appendChild(headerLeft)\n    _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.header.appendChild(headerRight)\n    headerLeft.appendChild(nameText)\n    headerLeft.appendChild(menuText)\n    headerRight.appendChild(contactText)\n})()\n\n//# sourceURL=webpack://restaurant-page/./src/header/header.js?");
@@ -160,9 +161,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _dom
 /***/ }),
 
 /***/ "./src/index.js":
-/*!**********************!*\
+/*! **********************!*\
   !*** ./src/index.js ***!
-  \**********************/
+  \********************* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _domContent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./domContent */ \"./src/domContent.js\");\n/* harmony import */ var _header_header_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header/header.js */ \"./src/header/header.js\");\n/* harmony import */ var _fancyScrollSection_fancyscroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./fancyScrollSection/fancyscroll */ \"./src/fancyScrollSection/fancyscroll.js\");\n/* harmony import */ var _menu_menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu/menu */ \"./src/menu/menu.js\");\n/* harmony import */ var _contact_contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./contact/contact */ \"./src/contact/contact.js\");\n\n\n\n\n\n\n\n\n\n\n(0,_fancyScrollSection_fancyscroll__WEBPACK_IMPORTED_MODULE_3__.fancyScroll)()\n\nconst menuPage = document.querySelector(\".header-menu-text\")\nconst mainPage = document.querySelector(\".header-main-name-text\")\nconst contactPage = document.querySelector(\".header-contact-text\")\n\nmenuPage.addEventListener(\"click\", () => {\n    if(_domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.MenuLeftSide.innerHTML === \"\"){\n    _domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.mainPage.innerHTML = \"\"\n    _domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.contactPage.innerHTML =\"\"\n    ;(0,_menu_menu__WEBPACK_IMPORTED_MODULE_4__.menu)()\n}\n    else {return 0}\n})\n\nmainPage.addEventListener(\"click\",()=>{\n    if(_domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.mainPage.innerHTML === \"\"){\n    _domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.MenuLeftSide.innerHTML = \"\"\n    _domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.MenuRightSide.innerHTML = \"\"\n    _domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.contactPage.innerHTML = \"\"\n    ;(0,_fancyScrollSection_fancyscroll__WEBPACK_IMPORTED_MODULE_3__.fancyScroll)()\n }\n    else {return 0}\n})\n\ncontactPage.addEventListener(\"click\",()=>{\n    if(_domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.contactPage.innerHTML === \"\"){\n    _domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.MenuLeftSide.innerHTML = \"\"\n    _domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.MenuRightSide.innerHTML = \"\"\n    _domContent__WEBPACK_IMPORTED_MODULE_1__.domContent.mainPage.innerHTML = \"\"\n    ;(0,_contact_contact__WEBPACK_IMPORTED_MODULE_5__.contact)()\n }\n    else {return 0}\n})\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
@@ -170,9 +171,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ }),
 
 /***/ "./src/menu/menu.js":
-/*!**************************!*\
+/*! **************************!*\
   !*** ./src/menu/menu.js ***!
-  \**************************/
+  \************************* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   menu: () => (/* binding */ menu)\n/* harmony export */ });\n/* harmony import */ var _domContent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../domContent */ \"./src/domContent.js\");\n/* harmony import */ var _sidebar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sidebar */ \"./src/menu/sidebar.js\");\n\n\n\n\nfunction menu(){\n\n\n    function menuItemDom(item){\n        const container = document.createElement(\"div\")\n        const itemName = document.createElement(\"p\")\n        const itemNameField = document.createElement(\"div\")\n        const itemPrice = document.createElement(\"p\")\n        const itemPic = document.createElement(\"img\")\n\n        itemName.classList.add(\"item-name\", \"item-text\")\n        itemPrice.classList.add(\"item-price\", \"item-text\")\n        container.classList.add(\"item-container\")\n        itemPic.classList.add(\"item-pic\")\n        itemNameField.classList.add(\"item-name-field\")\n\n        itemName.textContent = item.name\n        itemPrice.textContent = item.price + \"$\"\n        itemPic.src = item.imgSource\n\n        _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.MenuRightSide.appendChild(container)\n        itemNameField.appendChild(itemName)\n        container.appendChild(itemNameField)\n        itemNameField.appendChild(itemPrice)\n        container.appendChild(itemPic)\n    }\n\n    const menuItems = [\n        {name: \"Calamari\", price: 29.99, imgSource: \"../foods/Calamari.jpg\", type: \"appetizer\"},\n        {name: \"Fish Fillet\", price: 39.99, imgSource: \"../foods/fishfilet.jpg\", type: \"main-course\"},\n        {name: \"Prawn\", price: 19.99, imgSource: \"../foods/prawn.jpg\", type: \"appetizer\"},\n        {name: \"Salmon\", price: 39.99, imgSource: \"../foods/salmon.jpg\", type: \"main-course\"},\n        {name: \"Crab\", price: 39.99, imgSource: \"../foods/crab.jpg\", type: \"side-dish\"},\n        {name: \"Oyster\", price: 19.99, imgSource: \"../foods/oyster.jpg\", type: \"appetizer\"},\n        {name: \"Chocolate Soufle\", price: 12.99, imgSource: \"../foods/soufle.jpg\", type: \"dessert\"},\n        {name: \"Creme Brulee\", price: 18.99, imgSource: \"../foods/creme.jpg\", type: \"dessert\"},\n        {name: \"Lobster\", price: 59.99, imgSource: \"../foods/lobster.jpg\", type: \"main-course\"},\n        {name: \"Greek Salad\", price: 19.99, imgSource: \"../foods/greek.jpg\", type: \"side-dish\"},\n        {name: \"Baklava\", price: 12.99, imgSource: \"../foods/baklava.jpg\", type: \"dessert\"},\n        {name: \"Israeli Salad\", price: 19.99, imgSource: \"../foods/israel.jpg\", type: \"side-dish\"},\n    ];\n\n    const sidebarObject = (0,_sidebar__WEBPACK_IMPORTED_MODULE_1__.sidebar)();\n\n    function createMenuItems(menuItems){\n        menuItems.forEach(item => {\n            menuItemDom(item);\n        });\n    }   \n\n    sidebarObject.all.addEventListener(\"click\",()=>{\n        _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.MenuRightSide.innerHTML = \"\"\n        createMenuItems(menuItems)\n    })\n\n    sidebarObject.appetizerText.addEventListener(\"click\",() =>{\n        _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.MenuRightSide.innerHTML = \"\"\n        menuItems.forEach(e => {\n            if (e.type === \"appetizer\"){\n                menuItemDom(e)\n            }\n            else return\n        });\n    })\n\n    sidebarObject.sideDishText.addEventListener(\"click\",() =>{\n        _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.MenuRightSide.innerHTML = \"\"\n        menuItems.forEach(e => {\n            if (e.type === \"side-dish\"){\n                menuItemDom(e)\n            }\n            else return\n        });\n    })\n\n    sidebarObject.mainCourseText.addEventListener(\"click\",() =>{\n        _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.MenuRightSide.innerHTML = \"\"\n        menuItems.forEach(e => {\n            if (e.type === \"main-course\"){\n                menuItemDom(e)\n            }\n            else return\n        });\n    })\n\n    sidebarObject.dessertText.addEventListener(\"click\",() =>{\n        _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.MenuRightSide.innerHTML = \"\"\n        menuItems.forEach(e => {\n            if (e.type === \"dessert\"){\n                menuItemDom(e)\n            }\n            else return\n        });\n    })\n\n\n    createMenuItems(menuItems)\n}\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu/menu.js?");
@@ -180,9 +181,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ }),
 
 /***/ "./src/menu/sidebar.js":
-/*!*****************************!*\
+/*! *****************************!*\
   !*** ./src/menu/sidebar.js ***!
-  \*****************************/
+  \**************************** */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   sidebar: () => (/* binding */ sidebar)\n/* harmony export */ });\n/* harmony import */ var _domContent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../domContent */ \"./src/domContent.js\");\n\n\nconst sidebar = function(){\n    const sideBar = document.createElement(\"div\")\n    const all = document.createElement(\"p\")\n    const appetizerText = document.createElement(\"p\")\n    const mainCourseText = document.createElement(\"p\")\n    const sideDishText = document.createElement(\"p\")\n    const dessertText = document.createElement(\"p\")\n\n    all.classList.add(\"sidebar-text\", \"all-text\")\n    appetizerText.classList.add(\"sidebar-text\", \"appetizer-text\")\n    mainCourseText.classList.add(\"sidebar-text\", \"main-course-text\")\n    sideDishText.classList.add(\"sidebar-text\", \"side-dish-text\")\n    dessertText.classList.add(\"sidebar-text\", \"dessert-text\")\n    sideBar.classList.add(\"sidebar\")\n\n    all.textContent = \"ALL\"\n    appetizerText.textContent = \"APPETIZERS\"\n    sideDishText.textContent = \"SIDE DISH\"\n    mainCourseText.textContent = \"MAIN COURSE\"\n    dessertText.textContent = \"DESSERT\"\n    \n    sideBar.appendChild(all)\n    sideBar.appendChild(appetizerText)\n    sideBar.appendChild(sideDishText)\n    sideBar.appendChild(mainCourseText)\n    sideBar.appendChild(dessertText)\n    _domContent__WEBPACK_IMPORTED_MODULE_0__.domContent.MenuLeftSide.appendChild(sideBar)\n\n\n    return {appetizerText,mainCourseText,sideDishText,dessertText,all}\n}\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu/sidebar.js?");
@@ -190,9 +191,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ }),
 
 /***/ "./src/fonts/Inter-VariableFont_slnt,wght.ttf":
-/*!****************************************************!*\
+/*! ****************************************************!*\
   !*** ./src/fonts/Inter-VariableFont_slnt,wght.ttf ***!
-  \****************************************************/
+  \*************************************************** */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"853e01975d2783d9fa29.ttf\";\n\n//# sourceURL=webpack://restaurant-page/./src/fonts/Inter-VariableFont_slnt,wght.ttf?");
@@ -200,9 +201,9 @@ eval("module.exports = __webpack_require__.p + \"853e01975d2783d9fa29.ttf\";\n\n
 /***/ }),
 
 /***/ "./src/fonts/Montserrat-VariableFont_wght.ttf":
-/*!****************************************************!*\
+/*! ****************************************************!*\
   !*** ./src/fonts/Montserrat-VariableFont_wght.ttf ***!
-  \****************************************************/
+  \*************************************************** */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"7e687123cd4528224ce5.ttf\";\n\n//# sourceURL=webpack://restaurant-page/./src/fonts/Montserrat-VariableFont_wght.ttf?");
@@ -210,8 +211,8 @@ eval("module.exports = __webpack_require__.p + \"7e687123cd4528224ce5.ttf\";\n\n
 /***/ })
 
 },
-/******/ __webpack_require__ => { // webpackRuntimeModules
-/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js"));
-/******/ }
+/** *** */ __webpack_require__ => { // webpackRuntimeModules
+/** *** */ const __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/** *** */ const __webpack_exports__ = (__webpack_exec__("./src/index.js"));
+/** *** */ }
 ]);
