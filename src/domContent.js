@@ -1,7 +1,7 @@
 const domContent = (function domContent() {
   const body = document.querySelector("body");
   const content = document.querySelector(".content");
-  const header = document.createElement("div");
+  const header = document.createElement("nav");
   const mainPage = document.createElement("div");
   const menuPage = document.createElement("div");
   const MenuRightSide = document.createElement("div");
