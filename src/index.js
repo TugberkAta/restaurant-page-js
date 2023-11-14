@@ -12,8 +12,13 @@ const menuPage = document.querySelector(".header-menu-text");
 const mainPage = document.querySelector(".header-main-name-text");
 const contactPage = document.querySelector(".header-contact-text");
 
+mainPage.style.borderBottom = "1px solid white";
+
 menuPage.addEventListener("click", () => {
   if (domContent.MenuLeftSide.innerHTML === "") {
+    contactPage.style.borderBottom = "none";
+    mainPage.style.borderBottom = "none";
+    menuPage.style.borderBottom = "1px solid white";
     domContent.mainPage.innerHTML = "";
     domContent.contactPage.innerHTML = "";
     menu();
@@ -23,6 +28,9 @@ menuPage.addEventListener("click", () => {
 
 mainPage.addEventListener("click", () => {
   if (domContent.mainPage.innerHTML === "") {
+    menuPage.style.borderBottom = "none";
+    contactPage.style.borderBottom = "none";
+    mainPage.style.borderBottom = "1px solid white";
     domContent.MenuLeftSide.innerHTML = "";
     domContent.MenuRightSide.innerHTML = "";
     domContent.contactPage.innerHTML = "";
@@ -33,6 +41,9 @@ mainPage.addEventListener("click", () => {
 
 contactPage.addEventListener("click", () => {
   if (domContent.contactPage.innerHTML === "") {
+    mainPage.style.borderBottom = "none";
+    menuPage.style.borderBottom = "none";
+    contactPage.style.borderBottom = "1px solid white";
     domContent.MenuLeftSide.innerHTML = "";
     domContent.MenuRightSide.innerHTML = "";
     domContent.mainPage.innerHTML = "";
